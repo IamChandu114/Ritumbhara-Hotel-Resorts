@@ -2,7 +2,7 @@
 
 Goal: self-running AI agents for Off-Page SEO and Tech SEO that improve rankings for the target keywords.
 
-LIVE DEMO; ttps://ritumbhara-hotel-resorts.vercel.app/
+LIVE DEMO; [https://ritumbhara-hotel-resorts.vercel.app/](https://ritumbhara-hotel-resorts.vercel.app/)
 
 Outputs included in this repo:
 - Master NAP record templates
