@@ -1,0 +1,9 @@
+﻿check,description,frequency,owner,status
+robots_txt,Robots.txt is accessible and correct,weekly,SEO,open
+sitemap,XML sitemap is reachable and updated,weekly,SEO,open
+crawl_errors,4xx and 5xx errors tracked,weekly,SEO,open
+redirect_chains,No redirect chains on top pages,weekly,SEO,open
+canonicals,Canonical tags point to the correct URLs,weekly,SEO,open
+structured_data,Schema validates without errors,weekly,SEO,open
+core_web_vitals,LCP INP CLS tracked,monthly,SEO,open
+mobile_usability,Mobile friendly checks pass,monthly,SEO,open

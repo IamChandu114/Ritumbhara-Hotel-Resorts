@@ -1,0 +1,10 @@
+﻿daily:
+- nap_consistency_monitor
+weekly:
+- review_reputation_agent
+- citation_status_check
+- tech_seo_quick_audit
+monthly:
+- citation_health_report
+- tech_seo_full_audit
+- schema_refresh

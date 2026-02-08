@@ -1,0 +1,18 @@
+﻿directory_category,directory_name,domain_or_url,submission_method,login_required,status,notes
+Google Ecosystem,Google Business Profile,https://business.google.com,manual,true,priority,Source of truth for NAP
+Travel Directory,Tripadvisor,https://www.tripadvisor.com,manual,true,priority,Hotel listing and reviews
+Travel Directory,Booking.com,https://www.booking.com,manual,true,priority,Hotel listing and reservations
+Travel Directory,Agoda,https://www.agoda.com,manual,true,priority,Hotel listing and reservations
+Travel Directory,Expedia,https://www.expedia.com,manual,true,priority,Hotel listing and reservations
+Travel Directory,Hotels.com,https://www.hotels.com,manual,true,priority,Hotel listing and reservations
+Travel Directory,MakeMyTrip,https://www.makemytrip.com,manual,true,priority,Popular travel directory in India
+Travel Directory,Goibibo,https://www.goibibo.com,manual,true,priority,Popular travel directory in India
+Travel Directory,Yatra,https://www.yatra.com,manual,true,priority,Popular travel directory in India
+Travel Directory,Trivago,https://www.trivago.com,manual,true,optional,Meta search visibility
+Travel Directory,Cleartrip,https://www.cleartrip.com,manual,true,optional,Travel booking directory in India
+Local Directory,Justdial,https://www.justdial.com,manual,true,required,Local business directory
+Local Directory,Sulekha,https://www.sulekha.com,manual,true,required,Local services directory
+Local Tourism Portal,Rajasthan Tourism,https://www.tourism.rajasthan.gov.in,manual,true,required,Official Rajasthan tourism portal
+Local Tourism Portal,Rajasthan Tourism Development Corporation,https://rtdc.tourism.rajasthan.gov.in,manual,true,required,Official RTDC portal
+Local Tourism Portal,Alwar District Portal,https://alwar.rajasthan.gov.in,manual,true,required,Official Alwar district portal
+National Tourism Portal,Incredible India,https://www.incredibleindia.org,manual,true,optional,National tourism portal

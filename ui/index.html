@@ -1,0 +1,348 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ritumbhara SEO Command Center</title>
+    <meta name="description" content="AI-driven off-page, review, and technical SEO automation dashboard for Ritumbhara Hotel & Resorts." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+    <header class="hero">
+      <div class="hero-content">
+        <div class="badge">AI INTERN TASK · SEO AUTOMATION</div>
+        <h1>Ritumbhara Hotel & Resorts</h1>
+        <p class="hero-subtitle">
+          A self-running SEO command center that grows authority, converts reviews into content, and keeps
+          technical SEO flawless for Map Pack and organic rankings.
+        </p>
+        <div class="hero-actions">
+          <button class="primary" id="btnWeekly" data-report="weekly">Generate Weekly Insights</button>
+          <button class="ghost" id="btnMonthly" data-report="monthly">View Monthly Reports</button>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">Source of Truth</span>
+            <span class="meta-value" id="sourceOfTruth">Google Business Profile</span>
+          </div>
+          <div>
+            <span class="meta-label">Tone</span>
+            <span class="meta-value" id="contentTone">Warm, premium, nature-forward</span>
+          </div>
+          <div>
+            <span class="meta-label">Primary Markets</span>
+            <span class="meta-value" id="primaryMarkets">Sariska · Alwar · Rajasthan · Delhi NCR</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="panel-header">Live KPI Snapshot</div>
+        <div class="kpi-grid" id="kpiGrid"></div>
+        <div class="panel-footer">
+          <span>Last sync: </span>
+          <strong id="lastSync">Feb 7, 2026</strong>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-title">
+          <h2>Target Search Wins</h2>
+          <p>Primary keywords and supporting topics powering every automation.</p>
+        </div>
+        <div class="chip-group" id="keywordChips"></div>
+        <div class="chip-group muted" id="supportingChips"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>Automation Agents</h2>
+          <p>Three self-running agents that cover authority, reputation, and technical SEO health.</p>
+        </div>
+        <div class="card-grid" id="agentCards"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>Weekly Workflow Loop</h2>
+          <p>Every week the system closes the loop from reviews to rankings.</p>
+        </div>
+        <div class="timeline" id="weeklyTimeline"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>Live Input Console</h2>
+          <p>Enter new reviews, citations, and crawl rows. Export as CSV to feed the automation scripts.</p>
+        </div>
+        <div class="input-grid">
+          <div class="input-card">
+            <h3>Add Review</h3>
+            <p class="input-note">Saved entries: <strong id="reviewCount">0</strong></p>
+            <form id="reviewForm" class="input-form">
+              <label>
+                Source
+                <select name="source" required>
+                  <option value="Google">Google</option>
+                  <option value="Tripadvisor">Tripadvisor</option>
+                  <option value="Booking.com">Booking.com</option>
+                  <option value="Other">Other</option>
+                </select>
+              </label>
+              <label>
+                Review ID
+                <input type="text" name="review_id" placeholder="sample-007" />
+              </label>
+              <label>
+                Review Date
+                <input type="date" name="review_date" />
+              </label>
+              <label>
+                Rating
+                <input type="number" name="rating" min="1" max="5" step="0.1" placeholder="5" />
+              </label>
+              <label>
+                Reviewer Name
+                <input type="text" name="reviewer_name" placeholder="Guest name" />
+              </label>
+              <label class="full">
+                Review Text
+                <textarea name="review_text" rows="4" required placeholder="Write the review text here."></textarea>
+              </label>
+              <label class="full">
+                Review URL
+                <input type="url" name="url" placeholder="https://..." />
+              </label>
+              <div class="input-actions">
+                <button type="submit" class="primary">Save Review</button>
+                <button type="button" class="ghost" id="downloadReviews">Download Reviews CSV</button>
+              </div>
+              <div class="form-status" id="reviewStatus"></div>
+            </form>
+          </div>
+
+          <div class="input-card">
+            <h3>Add Citation Update</h3>
+            <p class="input-note">Saved entries: <strong id="citationCount">0</strong></p>
+            <form id="citationForm" class="input-form">
+              <label>
+                Directory Category
+                <select name="directory_category">
+                  <option value="Travel Directory">Travel Directory</option>
+                  <option value="Local Tourism Portal">Local Tourism Portal</option>
+                  <option value="Local Directory">Local Directory</option>
+                  <option value="Google Ecosystem">Google Ecosystem</option>
+                </select>
+              </label>
+              <label>
+                Directory Name
+                <input type="text" name="directory_name" placeholder="Tripadvisor" required />
+              </label>
+              <label>
+                Status
+                <select name="status">
+                  <option value="planned">Planned</option>
+                  <option value="submitted">Submitted</option>
+                  <option value="pending">Pending</option>
+                  <option value="approved">Approved</option>
+                  <option value="rejected">Rejected</option>
+                  <option value="duplicate">Duplicate</option>
+                </select>
+              </label>
+              <label>
+                Listing URL
+                <input type="url" name="listing_url" placeholder="https://..." />
+              </label>
+              <label>
+                Name Match
+                <select name="name_match">
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+                </select>
+              </label>
+              <label>
+                Address Match
+                <select name="address_match">
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+                </select>
+              </label>
+              <label>
+                Phone Match
+                <select name="phone_match">
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+                </select>
+              </label>
+              <label>
+                Login Email
+                <input type="email" name="login_email" placeholder="seo@ritumbhararesort.com" />
+              </label>
+              <label class="full">
+                Notes
+                <textarea name="notes" rows="3" placeholder="Next action, follow-up, or duplicate note."></textarea>
+              </label>
+              <div class="input-actions">
+                <button type="submit" class="primary">Save Citation</button>
+                <button type="button" class="ghost" id="downloadCitations">Download Citation CSV</button>
+              </div>
+              <div class="form-status" id="citationStatus"></div>
+            </form>
+          </div>
+
+          <div class="input-card">
+            <h3>Add Tech Crawl Row</h3>
+            <p class="input-note">Saved entries: <strong id="crawlCount">0</strong></p>
+            <form id="crawlForm" class="input-form">
+              <label class="full">
+                URL
+                <input type="url" name="url" placeholder="https://www.ritumbhararesort.com/page" required />
+              </label>
+              <label>
+                Status Code
+                <input type="number" name="status" placeholder="200" />
+              </label>
+              <label>
+                Canonical URL
+                <input type="url" name="canonical" placeholder="https://www.ritumbhararesort.com/page" />
+              </label>
+              <label>
+                Indexable
+                <select name="indexable">
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+                </select>
+              </label>
+              <label>
+                Redirect Chain
+                <input type="number" name="redirect_chain_length" placeholder="0" />
+              </label>
+              <label>
+                Has Schema
+                <select name="has_schema">
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+                </select>
+              </label>
+              <label>
+                LCP (s)
+                <input type="number" name="lcp" step="0.1" placeholder="2.9" />
+              </label>
+              <label>
+                INP (ms)
+                <input type="number" name="inp" step="1" placeholder="180" />
+              </label>
+              <label>
+                CLS
+                <input type="number" name="cls" step="0.01" placeholder="0.08" />
+              </label>
+              <label class="full">
+                Notes
+                <textarea name="notes" rows="2" placeholder="Any issues or observations."></textarea>
+              </label>
+              <div class="input-actions">
+                <button type="submit" class="primary">Save Crawl Row</button>
+                <button type="button" class="ghost" id="downloadCrawls">Download Crawl CSV</button>
+              </div>
+              <div class="form-status" id="crawlStatus"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <div class="section-title">
+            <h2>Citation Command Board</h2>
+            <p>Track approvals, NAP consistency, and duplicates across all listings.</p>
+          </div>
+          <div class="data-table">
+            <div class="table-header">
+              <span>Directory</span>
+              <span>Status</span>
+              <span>NAP Match</span>
+              <span>Next Action</span>
+            </div>
+            <div class="table-row">
+              <span>Google Business Profile</span>
+              <span class="status good">Approved</span>
+              <span>100%</span>
+              <span>Monitor weekly</span>
+            </div>
+            <div class="table-row">
+              <span>Tripadvisor</span>
+              <span class="status warn">Pending</span>
+              <span>100%</span>
+              <span>Follow up in 7 days</span>
+            </div>
+            <div class="table-row">
+              <span>Booking.com</span>
+              <span class="status warn">Submitted</span>
+              <span>100%</span>
+              <span>Await approval</span>
+            </div>
+            <div class="table-row">
+              <span>Rajasthan Tourism Portal</span>
+              <span class="status danger">Missing</span>
+              <span>0%</span>
+              <span>Submit listing</span>
+            </div>
+          </div>
+        </div>
+        <div class="side-panel">
+          <h3>Review Intelligence</h3>
+          <p>
+            Transform Google and travel portal reviews into SEO snippets, FAQs, and schema-ready testimonials.
+          </p>
+          <div class="insight-box" id="reviewInsights"></div>
+          <button class="primary" id="btnGmb" data-report="weekly">Create GMB Post Drafts</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>Tech SEO Health</h2>
+          <p>Continuous monitoring for crawlability, schema, and performance.</p>
+        </div>
+        <div class="health-grid" id="techHealth"></div>
+      </section>
+
+      <section class="section cta">
+        <div>
+          <h2>Ready to Impress the Recruiter</h2>
+          <p>
+            This dashboard is designed to run every week and ship proof of performance every month.
+            Plug in the real NAP and live review data to activate the full automation stack.
+          </p>
+        </div>
+        <button class="ghost" id="btnExport" data-report="tech">Export Client Report</button>
+      </section>
+    </main>
+
+    <div class="modal" id="reportModal" aria-hidden="true">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <div class="modal-eyebrow" id="modalEyebrow">SEO Automation</div>
+            <h3 id="modalTitle">Report Viewer</h3>
+          </div>
+          <button class="modal-close" id="modalClose">Close</button>
+        </div>
+        <div class="modal-body" id="reportBody"></div>
+      </div>
+    </div>
+
+    <footer>
+      <span>Ritumbhara SEO Command Center</span>
+      <span>Built for off-page authority, review SEO, and technical excellence.</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

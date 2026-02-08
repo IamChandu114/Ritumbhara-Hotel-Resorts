@@ -1,0 +1,42 @@
+﻿{
+  "business_name": "Ritumbhara Hotel & Resorts",
+  "brand_variations": [
+    "Ritumbhara Hotel and Resorts",
+    "Ritumbhara Resort",
+    "Ritumbhara Hotel & Resort"
+  ],
+  "address": {
+    "line1": "Sariska Road, Village Karanpur",
+    "line2": "Near Sariska Tiger Reserve",
+    "city": "Alwar",
+    "state": "Rajasthan",
+    "postal_code": "301001",
+    "country": "IN"
+  },
+  "phone": "+91-99999-88888",
+  "email": "stay@ritumbhararesort.com",
+  "website": "https://www.ritumbhararesort.com",
+  "geo": {
+    "lat": "27.5571",
+    "lng": "76.6240"
+  },
+  "check_in_time": "14:00",
+  "check_out_time": "11:00",
+  "business_hours": {
+    "mon": "00:00-23:59",
+    "tue": "00:00-23:59",
+    "wed": "00:00-23:59",
+    "thu": "00:00-23:59",
+    "fri": "00:00-23:59",
+    "sat": "00:00-23:59",
+    "sun": "00:00-23:59"
+  },
+  "primary_category": "Hotel",
+  "secondary_categories": [
+    "Resort hotel",
+    "Wedding venue",
+    "Caterer"
+  ],
+  "source_of_truth": "Google Business Profile",
+  "last_verified": "2026-02-07"
+}

@@ -1,0 +1,9 @@
+﻿listing_name,directory_category,directory_name,listing_url,status,submit_date,approval_date,last_checked,nap_match_score,name_match,address_match,phone_match,duplicate_of,login_email,notes
+Ritumbhara Hotel & Resorts,Google Ecosystem,Google Business Profile,https://example.com/ritumbhara-google-profile,approved,2026-01-05,2026-01-10,2026-02-07,1.0,true,true,true,,seo@ritumbhararesort.com,Primary listing
+Ritumbhara Hotel & Resorts,Travel Directory,Tripadvisor,,submitted,2026-01-15,,2026-02-07,1.0,true,true,true,,seo@ritumbhararesort.com,Awaiting approval
+Ritumbhara Hotel & Resorts,Travel Directory,Booking.com,,submitted,2026-01-18,,2026-02-07,1.0,true,true,true,,seo@ritumbhararesort.com,Awaiting approval
+Ritumbhara Hotel & Resorts,Travel Directory,MakeMyTrip,https://example.com/ritumbhara-makemytrip,approved,2026-01-12,2026-01-20,2026-02-07,1.0,true,true,true,,seo@ritumbhararesort.com,Live listing
+Ritumbhara Hotel & Resorts,Travel Directory,Goibibo,,pending,2026-01-22,,2026-02-07,1.0,true,true,true,,seo@ritumbhararesort.com,Pending verification
+Ritumbhara Hotel & Resorts,Travel Directory,Yatra,,pending,2026-01-25,,2026-02-07,1.0,true,true,true,,seo@ritumbhararesort.com,Pending verification
+Ritumbhara Hotel & Resorts,Local Tourism Portal,Rajasthan Tourism,,planned,,,2026-02-07,0.0,false,false,false,,seo@ritumbhararesort.com,Submission queued
+Ritumbhara Hotel & Resorts,Local Directory,Justdial,https://example.com/ritumbhara-justdial,duplicate,2025-12-20,2026-01-02,2026-02-07,0.67,true,true,false,https://example.com/ritumbhara-justdial-primary,seo@ritumbhararesort.com,Duplicate phone mismatch

@@ -1,0 +1,125 @@
+{
+  "summary": "Total reviews analyzed: 6. Average rating: 4.67. Common themes include: peaceful stay, stay near, near sariska, sariska lawns. Use the highlighted phrases to update FAQs and on-page snippets.",
+  "keyword_phrases": [
+    "peaceful stay",
+    "stay near",
+    "near sariska",
+    "sariska lawns",
+    "lawns perfect",
+    "perfect wedding",
+    "wedding functions",
+    "functions catering",
+    "catering team",
+    "team handled",
+    "handled everything",
+    "everything smoothly",
+    "peaceful stay near",
+    "stay near sariska",
+    "near sariska lawns"
+  ],
+  "snippet_candidates": [
+    "Peaceful stay near Sariska",
+    "The lawns were perfect for our wedding functions and the catering team handled everything smoothly",
+    "We chose this as a destination wedding resort in Rajasthan and the staff were very supportive",
+    "Best resort in Alwar for a weekend getaway",
+    "Rooms were clean and the food was excellent",
+    "Luxury vibe and calm surroundings",
+    "Great option for a luxury resort near Delhi NCR when you want a quiet break",
+    "Catering was outstanding and the banquet setup worked well for our corporate offsite"
+  ],
+  "faq_items": [
+    {
+      "question": "Do guests mention peaceful stay?",
+      "answer": "Peaceful stay near Sariska"
+    },
+    {
+      "question": "Do guests mention stay near?",
+      "answer": "Peaceful stay near Sariska"
+    },
+    {
+      "question": "Do guests mention near sariska?",
+      "answer": "Peaceful stay near Sariska"
+    },
+    {
+      "question": "Do guests mention sariska lawns?",
+      "answer": "Peaceful stay near Sariska"
+    },
+    {
+      "question": "Do guests mention lawns perfect?",
+      "answer": "Peaceful stay near Sariska"
+    }
+  ],
+  "schema_reviews": [
+    {
+      "author": "Amit K",
+      "rating": "5",
+      "date": "2026-01-12",
+      "reviewBody": "Peaceful stay near Sariska. The lawns were perfect for our wedding functions and the catering team handled everything smoothly."
+    },
+    {
+      "author": "Priya S",
+      "rating": "4",
+      "date": "2026-01-20",
+      "reviewBody": "We chose this as a destination wedding resort in Rajasthan and the staff were very supportive."
+    },
+    {
+      "author": "Rahul M",
+      "rating": "5",
+      "date": "2025-12-28",
+      "reviewBody": "Best resort in Alwar for a weekend getaway. Rooms were clean and the food was excellent."
+    },
+    {
+      "author": "Neha R",
+      "rating": "4",
+      "date": "2026-01-05",
+      "reviewBody": "Luxury vibe and calm surroundings. Great option for a luxury resort near Delhi NCR when you want a quiet break."
+    },
+    {
+      "author": "Vikram P",
+      "rating": "5",
+      "date": "2026-02-01",
+      "reviewBody": "Catering was outstanding and the banquet setup worked well for our corporate offsite."
+    }
+  ],
+  "insertion_suggestions": [
+    {
+      "page": "Destination wedding resort Rajasthan",
+      "suggested_text": "Peaceful stay near Sariska",
+      "source_review_id": "sample-001"
+    },
+    {
+      "page": "Destination wedding resort Rajasthan",
+      "suggested_text": "We chose this as a destination wedding resort in Rajasthan and the staff were very supportive",
+      "source_review_id": "sample-002"
+    },
+    {
+      "page": "Best resort in Alwar",
+      "suggested_text": "Best resort in Alwar for a weekend getaway",
+      "source_review_id": "sample-003"
+    },
+    {
+      "page": "Luxury resort near Delhi NCR",
+      "suggested_text": "Luxury vibe and calm surroundings",
+      "source_review_id": "sample-004"
+    },
+    {
+      "page": "Best Food Catering Company",
+      "suggested_text": "Catering was outstanding and the banquet setup worked well for our corporate offsite",
+      "source_review_id": "sample-005"
+    },
+    {
+      "page": "Resort near Sariska",
+      "suggested_text": "Helpful staff, peaceful gardens, and easy access to Sariska tiger reserve",
+      "source_review_id": "sample-006"
+    }
+  ],
+  "generated_at": "2026-02-08T05:23:36Z",
+  "brand": "Ritumbhara Hotel & Resorts",
+  "target_keywords": [
+    "Resort near Sariska",
+    "Best resort in Alwar",
+    "Destination wedding resort Rajasthan",
+    "Luxury resort near Delhi NCR",
+    "Best Food Catering Company"
+  ]
+}

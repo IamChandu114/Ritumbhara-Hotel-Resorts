@@ -1,0 +1,20 @@
+﻿{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Hotel",
+    "name": "Ritumbhara Hotel & Resorts"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "REPLACE_ME"
+  },
+  "reviewBody": "REPLACE_ME",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "REPLACE_ME",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "datePublished": "REPLACE_ME"
+}

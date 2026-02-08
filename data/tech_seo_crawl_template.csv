@@ -1,0 +1,7 @@
+﻿url,status,canonical,indexable,redirect_chain_length,has_schema,lcp,inp,cls,notes
+https://www.ritumbhararesort.com/,200,https://www.ritumbhararesort.com/,true,0,true,2.9,180,0.08,Homepage OK
+https://www.ritumbhararesort.com/resort-near-sariska,200,https://www.ritumbhararesort.com/resort-near-sariska,true,0,true,3.4,220,0.10,LCP high on hero image
+https://www.ritumbhararesort.com/best-resort-alwar,200,https://www.ritumbhararesort.com/best-resort-alwar,true,0,true,2.7,170,0.05,OK
+https://www.ritumbhararesort.com/destination-wedding-rajasthan,200,https://www.ritumbhararesort.com/destination-wedding-rajasthan,true,0,false,3.1,200,0.09,FAQ schema missing
+https://www.ritumbhararesort.com/luxury-resort-delhi-ncr,301,https://www.ritumbhararesort.com/luxury-resort-near-delhi-ncr,false,1,true,,,Redirect to canonical
+https://www.ritumbhararesort.com/food-catering,404,,false,0,false,,,404 not found

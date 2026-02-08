@@ -1,0 +1,13 @@
+﻿{
+  "mode": "production",
+  "review_ingest_mode": "csv",
+  "review_ingest_path": "data/review_ingest_template.csv",
+  "citation_tracker_path": "data/citation_tracker_template.csv",
+  "tech_crawl_path": "data/tech_seo_crawl_template.csv",
+  "outputs": {
+    "weekly_insights": "reports/weekly_review_insights.json",
+    "monthly_citation_report": "reports/monthly_citation_health_report_YYYY-MM.md",
+    "monthly_tech_report": "reports/tech_seo_health_report_YYYY-MM.md"
+  },
+  "last_run": "2026-02-07"
+}
